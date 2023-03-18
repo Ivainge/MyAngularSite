@@ -1,0 +1,58 @@
+.box {
+    backdrop-filter: blur(5px) saturate(90%) contrast(85%);
+    border: 3px solid hsla(0,0%,100%,.05);
+    border-radius: 10%;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1%;
+    height: 19%;
+    width: 28%;
+}
+.but-div-up {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.button {
+    color: white;
+    padding: 10px;
+}
+.buttons {
+    height: 100%;
+    width: 100%;
+}
+.rainbow {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 70px;
+    font-size: 3.5vw;
+    font-family: monospace;
+    letter-spacing: 2px;
+    font-family: Arial;
+}
+.rainbow_text_animated {
+    background: linear-gradient(to right, #ba66ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-text-stroke: 2px rgba(47, 0, 255, 0.39);
+    text-decoration: none;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 20s ease-in-out infinite;
+    background-size: 400% 100%;
+    margin-left: 3px;
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
