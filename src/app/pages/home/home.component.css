@@ -1,58 +1,276 @@
-.box {
-    backdrop-filter: blur(5px) saturate(90%) contrast(85%);
-    border: 3px solid hsla(0,0%,100%,.05);
-    border-radius: 10%;
-    position: absolute;
-    top: 38%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 1%;
-    height: 19%;
-    width: 28%;
-}
-.but-div-up {
-    height: 40%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.button {
-    color: white;
-    padding: 10px;
-}
-.buttons {
-    height: 100%;
-    width: 100%;
-}
-.rainbow {
-    text-align: center;
-    text-decoration: underline;
-    font-size: 70px;
-    font-size: 3.5vw;
-    font-family: monospace;
-    letter-spacing: 2px;
-    font-family: Arial;
-}
-.rainbow_text_animated {
-    background: linear-gradient(to right, #ba66ff, #0099ff , #00ff00, #ff3399, #6666ff);
-    -webkit-text-stroke: 2px rgba(47, 0, 255, 0.39);
-    text-decoration: none;
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    animation: rainbow_animation 20s ease-in-out infinite;
-    background-size: 400% 100%;
-    margin-left: 3px;
-    margin-top: 0;
-    margin-bottom: 5%;
+@media (max-width: 19em){
+    .box {
+        backdrop-filter: blur(5px) saturate(90%) contrast(85%);
+        border: 3px solid hsla(0,0%,100%,.05);
+        border-radius: 3vh;
+        position: absolute;
+        top: 38%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 1%;
+        height: 15em;
+        width: 90%;
+    }
+    .but-div-up {
+        height: 40%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .button {
+        color: white;
+        padding: 0px;
+    }
+    .buttons {
+        height: 90%;
+        width: 90%;
+    }
+    .github{
+        width: 20%;
+        height: 55%;
+        }
+    .text {
+        -webkit-text-stroke: 0.7px;
+        -webkit-text-stroke-color: black;
+        color: rgb(255, 249, 249);
+        text-align: center;
+        font-family: monospace;
+        letter-spacing: 1px;
+        font-size: 1em;
+        font-family: Arial;
+    }
+    .rainbow {
+        text-align: center;
+        text-decoration: underline;
+        font-size: 3em;
+        font-family: monospace;
+        letter-spacing: 2px;
+        font-family: Arial;
+    }
+    }
+    .rainbow_text_animated {
+        background: linear-gradient(to right, #ba66ff, #0099ff , #00ff00, #ff3399, #6666ff);
+        -webkit-text-stroke: 2px rgba(47, 0, 255, 0.39);
+        text-decoration: none;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        animation: rainbow_animation 20s ease-in-out infinite;
+        background-size: 400% 100%;
+        margin-left: 3px;
+        margin-top: 0;
+        margin-bottom: -1%;
 }
 
-@keyframes rainbow_animation {
-    0%,100% {
-        background-position: 0 0;
-    }
 
-    50% {
-        background-position: 100% 0;
+
+
+@media (min-width: 19em) {
+    .box {
+        backdrop-filter: blur(5px) saturate(90%) contrast(85%);
+        border: 3px solid hsla(0,0%,100%,.05);
+        border-radius: 3vh;
+        position: absolute;
+        top: 38%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 1%;
+        height: 15em;
+        width: 90%;
     }
+    .but-div-up {
+        height: 40%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .button {
+        color: white;
+        padding: 0px;
+    }
+    .buttons {
+        height: 100%;
+        width: 100%;
+    }
+    .github{
+        width: 17%;
+        height: 55%;
+        }
+    .agithub {
+        margin-left: 2.5%;
+    }
+    .text {
+        -webkit-text-stroke: 0.7px;
+        -webkit-text-stroke-color: black;
+        color: rgb(255, 249, 249);
+        text-align: center;
+        font-family: monospace;
+        letter-spacing: 1px;
+        font-size: 1em;
+        font-family: Arial;
+    }
+    .rainbow {
+        text-align: center;
+        text-decoration: underline;
+        font-size: 3em;
+        font-family: monospace;
+        letter-spacing: 2px;
+        font-family: Arial;
+    }
+    }
+    .rainbow_text_animated {
+        background: linear-gradient(to right, #ba66ff, #0099ff , #00ff00, #ff3399, #6666ff);
+        -webkit-text-stroke: 2px rgba(47, 0, 255, 0.39);
+        text-decoration: none;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        animation: rainbow_animation 20s ease-in-out infinite;
+        background-size: 400% 100%;
+        margin-left: 3px;
+        margin-top: 0;
+        margin-bottom: -1%;
+}
+
+
+
+
+
+
+@media (min-width: 30em) and (orientation: portrait) {
+    .box {
+        backdrop-filter: blur(5px) saturate(90%) contrast(85%);
+        border: 3px solid hsla(0,0%,100%,.05);
+        border-radius: 3vh;
+        position: absolute;
+        top: 38%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 1%;
+        height: 16em;
+        width: 90%;
+    }
+    .but-div-up {
+        height: 40%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .button {
+        color: white;
+        padding: 0px;
+    }
+    .buttons {
+        height: 100%;
+        width: 100%;
+    }
+    .github{
+        width: 15%;
+        height: 70%;
+        }
+    .agithub {
+        margin-left: 2.5%;
+    }
+    .text {
+        -webkit-text-stroke: 0.7px;
+        -webkit-text-stroke-color: black;
+        color: rgb(255, 249, 249);
+        text-align: center;
+        font-family: monospace;
+        letter-spacing: 1px;
+        font-size: 1.1em;
+        font-family: Arial;
+    }
+    .rainbow {
+        text-align: center;
+        text-decoration: underline;
+        font-size: 12vw;
+        font-family: monospace;
+        letter-spacing: 2px;
+        font-family: Arial;
+    }
+    }
+    .rainbow_text_animated {
+        background: linear-gradient(to right, #ba66ff, #0099ff , #00ff00, #ff3399, #6666ff);
+        -webkit-text-stroke: 2px rgba(47, 0, 255, 0.39);
+        text-decoration: none;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        animation: rainbow_animation 20s ease-in-out infinite;
+        background-size: 400% 100%;
+        margin-left: 3px;
+        margin-top: 0;
+        margin-bottom: -1%;
+}
+
+
+
+
+
+@media (min-width: 40em){
+    .box {
+        backdrop-filter: blur(5px) saturate(90%) contrast(85%);
+        border: 3px solid hsla(0,0%,100%,.05);
+        border-radius: 3vh;
+        position: absolute;
+        top: 38%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 1%;
+        height: 17em;
+        width: 36em;
+    }
+    .but-div-up {
+        height: 40%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .button {
+        color: white;
+        padding: 0px;
+    }
+    .buttons {
+        height: 110%;
+        width: 120%;
+    }
+    .github{
+    width: 15%;
+    height: 70%;
+    }
+    .agithub {
+        margin-left: 2.5%;
+    }
+    .text {
+        -webkit-text-stroke: 0.7px;
+        -webkit-text-stroke-color: black;
+        color: rgb(255, 249, 249);
+        text-align: center;
+        font-family: monospace;
+        letter-spacing: 1px;
+        font-size: 1.2em;
+        font-family: Arial;
+    }
+    .rainbow {
+        text-align: center;
+        text-decoration: underline;
+        font-size: 4.5em;
+        font-family: monospace;
+        letter-spacing: 2px;
+        font-family: Arial;
+    }
+    }
+    .rainbow_text_animated {
+        background: linear-gradient(to right, #ba66ff, #0099ff , #00ff00, #ff3399, #6666ff);
+        -webkit-text-stroke: 2px rgba(47, 0, 255, 0.39);
+        text-decoration: none;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        animation: rainbow_animation 20s ease-in-out infinite;
+        background-size: 400% 100%;
+        margin-left: 3px;
+        margin-top: 0;
+        margin-bottom: -1%;
 }
